@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Mail, GraduationCap, Building2 } from "lucide-react";
+import { Mail, Building2 } from "lucide-react";
 import type { AdvisorProfile } from "@/types/advisor";
 
 export function AdvisorProfile({ profile }: { profile: AdvisorProfile }) {

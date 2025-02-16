@@ -7,7 +7,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { Badge } from "@/components/ui/badge"
-import { Calendar, Trophy, User, FileText, Trash2, Pencil } from "lucide-react"
+import { Calendar, User, FileText, Trash2, Pencil } from "lucide-react"
 import { Achievement, AchievementWithFeedback } from "@/types/student"
 import { FilePreview } from "./file-preview";
 import { Button } from "@/components/ui/button";

@@ -11,7 +11,6 @@ import { Label } from "@/components/ui/label";
 import { Achievement, AchievementFile } from "@/types/student";
 import { useState } from "react";
 import { Upload, X, FileText } from "lucide-react";
-import { cn } from "@/lib/utils";
 
 interface AchievementEditDialogProps {
   achievement: Achievement | null;

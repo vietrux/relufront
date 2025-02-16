@@ -20,8 +20,7 @@ export function AchievementReview({
   achievement, 
   onApprove, 
   onReject,
-  onRemove,
-  userRole 
+  onRemove
 }: AchievementReviewProps) {
   const [feedback, setFeedback] = useState("");
   const [isViewModalOpen, setIsViewModalOpen] = useState(false);

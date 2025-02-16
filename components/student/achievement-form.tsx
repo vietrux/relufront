@@ -6,7 +6,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { FilePreview } from "@/components/shared/file-preview";
 import { UploadCloud } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import { AchievementType, Achievement } from "@/types/student";
