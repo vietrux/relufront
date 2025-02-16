@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 // Hardcoded role for development - replace with actual auth logic later
-const MOCK_USER_ROLE = 'class-leader' // Options: 'student' | 'class-leader' | 'advisor'
+const MOCK_USER_ROLE = 'student' // Options: 'student' | 'class-leader' | 'advisor'
 
 export function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname
